@@ -3,4 +3,7 @@ contact:
   name: Enrico Daga
   url: https://data.open.ac.uk
 queries:
-  - https://raw.githubusercontent.com/enridaga/opensmartlibrary/master/list-courses.rq
+  - https://raw.githubusercontent.com/enridaga/opensmartlibrary/master/list-courses.sparql
+  - https://raw.githubusercontent.com/enridaga/opensmartlibrary/master/search-courses.sparql
+  - https://raw.githubusercontent.com/enridaga/opensmartlibrary/master/search-learning-resources.sparql
+  - https://raw.githubusercontent.com/enridaga/opensmartlibrary/master/list-learning-resources.sparql
