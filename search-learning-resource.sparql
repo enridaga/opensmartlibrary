@@ -1,3 +1,7 @@
+#+ endpoint: http://data.open.ac.uk/sparql
+#+ defaults:
+#+   - search: history
+
 PREFIX rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX void: <http://rdfs.org/ns/void#>
@@ -17,7 +21,9 @@ FROM <http://data.open.ac.uk/context/openlearn2>
 FROM <http://data.open.ac.uk/context/videofinder>
 WHERE {
     
-	?lit bds:search ?_search_string .
+	?lit bds:search ?_search_xsd_string
+    
+     .
 	?lit bds:matchAllTerms true .
 	?lit bds:relevance ?score .
 
