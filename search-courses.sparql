@@ -1,6 +1,6 @@
 #+ endpoint: http://data.open.ac.uk/sparql
 #+ defaults:
-#+   - search: history
+#+ - search: history
 #+ transform: {
 #+     "course": "?entity",
 #+     "type": "?type",
