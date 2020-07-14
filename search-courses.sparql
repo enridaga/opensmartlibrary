@@ -33,7 +33,7 @@ SELECT
 FROM <http://data.open.ac.uk/context/xcri>
 WHERE {
     
-	?lit bds:search ?_search_xsd_string .
+	?lit bds:search ?__search_xsd_string .
 	?lit bds:matchAllTerms true .
 	?lit bds:relevance ?score .
     ?entity a <http://purl.org/net/mlo/LearningOpportunitySpecification> .
