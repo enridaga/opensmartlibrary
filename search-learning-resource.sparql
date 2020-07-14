@@ -17,7 +17,7 @@ FROM <http://data.open.ac.uk/context/openlearn2>
 FROM <http://data.open.ac.uk/context/videofinder>
 WHERE {
     
-	?lit bds:search "history" .
+	?lit bds:search ?_search_string .
 	?lit bds:matchAllTerms true .
 	?lit bds:relevance ?score .
 
