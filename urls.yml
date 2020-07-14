@@ -1,0 +1,6 @@
+title: APIs for the OSL pilot
+contact:
+  name: Enrico Daga
+  url: https://data.open.ac.uk
+queries:
+  - https://raw.githubusercontent.com/enridaga/opensmartlibrary/master/list-courses.rq
